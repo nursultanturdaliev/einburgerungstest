@@ -1,0 +1,275 @@
+{
+  "Baden-Württemberg": [
+    {
+      "id": "BW001",
+      "question": "Welches Wappen gehört zum Bundesland Baden-Württemberg?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Baden-Württemberg hat ein charakteristisches Wappen mit drei Löwen.",
+      "state": "Baden-Württemberg",
+      "difficulty": "medium"
+    }
+  ],
+  "Bayern": [
+    {
+      "id": "BY001",
+      "question": "Welches Wappen gehört zum Freistaat Bayern?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Bayern hat ein charakteristisches Wappen mit weiß-blauen Rauten.",
+      "state": "Bayern",
+      "difficulty": "medium"
+    }
+  ],
+  "Berlin": [
+    {
+      "id": "BE001",
+      "question": "Welches Wappen gehört zum Bundesland Berlin?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Berlin hat ein charakteristisches Wappen mit einem Bären.",
+      "state": "Berlin",
+      "difficulty": "medium"
+    }
+  ],
+  "Brandenburg": [
+    {
+      "id": "BB001",
+      "question": "Welches Wappen gehört zum Bundesland Brandenburg?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Brandenburg hat ein charakteristisches Wappen mit einem roten Adler.",
+      "state": "Brandenburg",
+      "difficulty": "medium"
+    }
+  ],
+  "Bremen": [
+    {
+      "id": "HB001",
+      "question": "Welches Wappen gehört zum Bundesland Bremen?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Bremen hat ein charakteristisches Wappen mit einem Schlüssel.",
+      "state": "Bremen",
+      "difficulty": "medium"
+    }
+  ],
+  "Hamburg": [
+    {
+      "id": "HH001",
+      "question": "Welches Wappen gehört zur Freien und Hansestadt Hamburg?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Hamburg hat ein charakteristisches Wappen mit einem Tor.",
+      "state": "Hamburg",
+      "difficulty": "medium"
+    }
+  ],
+  "Hessen": [
+    {
+      "id": "HE001",
+      "question": "Welches Wappen gehört zum Bundesland Hessen?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Hessen hat ein charakteristisches Wappen mit einem Löwen.",
+      "state": "Hessen",
+      "difficulty": "medium"
+    }
+  ],
+  "Mecklenburg-Vorpommern": [
+    {
+      "id": "MV001",
+      "question": "Welches Wappen gehört zum Bundesland Mecklenburg-Vorpommern?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Mecklenburg-Vorpommern hat ein charakteristisches Wappen.",
+      "state": "Mecklenburg-Vorpommern",
+      "difficulty": "medium"
+    }
+  ],
+  "Niedersachsen": [
+    {
+      "id": "NI001",
+      "question": "Welches Wappen gehört zum Bundesland Niedersachsen?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Niedersachsen hat ein charakteristisches Wappen mit einem Pferd.",
+      "state": "Niedersachsen",
+      "difficulty": "medium"
+    }
+  ],
+  "Nordrhein-Westfalen": [
+    {
+      "id": "NW001",
+      "question": "Welches Wappen gehört zum Bundesland Nordrhein-Westfalen?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Nordrhein-Westfalen hat ein charakteristisches Wappen.",
+      "state": "Nordrhein-Westfalen",
+      "difficulty": "medium"
+    }
+  ],
+  "Rheinland-Pfalz": [
+    {
+      "id": "RP001",
+      "question": "Welches Wappen gehört zum Bundesland Rheinland-Pfalz?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Rheinland-Pfalz hat ein charakteristisches Wappen.",
+      "state": "Rheinland-Pfalz",
+      "difficulty": "medium"
+    }
+  ],
+  "Saarland": [
+    {
+      "id": "SL001",
+      "question": "Welches Wappen gehört zum Bundesland Saarland?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Saarland hat ein charakteristisches Wappen.",
+      "state": "Saarland",
+      "difficulty": "medium"
+    }
+  ],
+  "Sachsen": [
+    {
+      "id": "SN001",
+      "question": "Welches Wappen gehört zum Freistaat Sachsen?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Sachsen hat ein charakteristisches Wappen.",
+      "state": "Sachsen",
+      "difficulty": "medium"
+    }
+  ],
+  "Sachsen-Anhalt": [
+    {
+      "id": "ST001",
+      "question": "Welches Wappen gehört zum Bundesland Sachsen-Anhalt?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Sachsen-Anhalt hat ein charakteristisches Wappen.",
+      "state": "Sachsen-Anhalt",
+      "difficulty": "medium"
+    }
+  ],
+  "Schleswig-Holstein": [
+    {
+      "id": "SH001",
+      "question": "Welches Wappen gehört zum Bundesland Schleswig-Holstein?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Schleswig-Holstein hat ein charakteristisches Wappen.",
+      "state": "Schleswig-Holstein",
+      "difficulty": "medium"
+    }
+  ],
+  "Thüringen": [
+    {
+      "id": "TH001",
+      "question": "Welches Wappen gehört zum Freistaat Thüringen?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "category": "Land und Leute",
+      "explanation": "Thüringen hat ein charakteristisches Wappen.",
+      "state": "Thüringen",
+      "difficulty": "medium"
+    }
+  ]
+}
+

@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Einbürgerungstest Vorbereitung
 
-## Getting Started
+Eine moderne Web-Anwendung zur Vorbereitung auf den deutschen Einbürgerungstest.
 
-First, run the development server:
+## Features
+
+- **460 offizielle Fragen**: 300 allgemeine Fragen + 160 landesspezifische Fragen (10 pro Bundesland)
+- **Verschiedene Übungsmodi**:
+  - Alle Fragen durchgehen (sequenziell)
+  - Zufälliger Test (33 Fragen, 60 Minuten Timer)
+  - Übungsmodus mit sofortigem Feedback
+  - Kategorie-Filter
+  - Lesezeichen-Übungen
+  - Wiederholung falscher Antworten
+- **Fortschrittsverfolgung**: Lokale Speicherung aller Antworten und Statistiken
+- **Statistiken**: Detaillierte Übersicht über Ihre Leistung nach Kategorien
+- **Lesezeichen**: Markieren Sie schwierige Fragen zum späteren Üben
+- **Dark Mode**: Unterstützung für helles und dunkles Theme
+- **PWA**: Installierbar als Progressive Web App für Offline-Zugriff
+- **Responsive Design**: Optimiert für Desktop und Mobile
+
+## Technologie-Stack
+
+- **Next.js 14+** mit App Router
+- **TypeScript**
+- **Tailwind CSS**
+- **React Context API** für State Management
+- **localStorage** für Datenpersistenz
+
+## Installation
 
 ```bash
+# Dependencies installieren
+npm install
+
+# Entwicklungsserver starten
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Production Build
+npm run build
+
+# Production Server starten
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Datenstruktur
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Die Fragen sind in JSON-Dateien organisiert:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `data/general-questions.json` - 300 allgemeine Fragen
+- `data/state-questions.json` - 160 landesspezifische Fragen
+- `data/metadata.json` - Metadaten und Konfiguration
 
-## Learn More
+### Frage-Schema
 
-To learn more about Next.js, take a look at the following resources:
+```json
+{
+  "id": "G001",
+  "question": "Frage text...",
+  "options": ["Option A", "Option B", "Option C", "Option D"],
+  "correctAnswer": 0,
+  "category": "Politik in der Demokratie",
+  "explanation": "Erklärung...",
+  "state": null,
+  "difficulty": "easy"
+}
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment auf Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Repository zu GitHub pushen
+2. Auf [Vercel](https://vercel.com) einloggen
+3. Neues Projekt importieren
+4. Build-Konfiguration:
+   - Framework Preset: Next.js
+   - Build Command: `npm run build`
+   - Output Directory: `out`
+5. Deploy
 
-## Deploy on Vercel
+Die App wird automatisch als statische Seite exportiert.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Hinweise
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Die aktuellen JSON-Dateien enthalten Beispiel-Fragen. Um die vollständigen 460 Fragen zu verwenden, müssen diese aus offiziellen BAMF-Quellen oder Open-Source-Repositories hinzugefügt werden.
+- Für PWA-Icons: Ersetzen Sie `public/icon-192.png` und `public/icon-512.png` mit eigenen Icons.
+
+## Lizenz
+
+Dieses Projekt ist für Bildungszwecke erstellt. Alle Fragen basieren auf dem offiziellen Fragenkatalog des Bundesamts für Migration und Flüchtlinge (BAMF).

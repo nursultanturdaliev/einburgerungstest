@@ -1,0 +1,37 @@
+{
+  "totalGeneralQuestions": 300,
+  "totalStateQuestions": 160,
+  "totalQuestions": 460,
+  "testRules": {
+    "questionsPerTest": 33,
+    "generalQuestionsPerTest": 30,
+    "stateQuestionsPerTest": 3,
+    "timeLimitMinutes": 60,
+    "passingScore": 17
+  },
+  "categories": [
+    "Politik in der Demokratie",
+    "Geschichte und Verantwortung",
+    "Mensch und Gesellschaft"
+  ],
+  "states": [
+    "Baden-Württemberg",
+    "Bayern",
+    "Berlin",
+    "Brandenburg",
+    "Bremen",
+    "Hamburg",
+    "Hessen",
+    "Mecklenburg-Vorpommern",
+    "Niedersachsen",
+    "Nordrhein-Westfalen",
+    "Rheinland-Pfalz",
+    "Saarland",
+    "Sachsen",
+    "Sachsen-Anhalt",
+    "Schleswig-Holstein",
+    "Thüringen"
+  ],
+  "supportedLanguages": ["de", "en", "tr", "ar"]
+}
+
