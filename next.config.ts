@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  // Remove static export for Vercel deployment
+  // Vercel handles Next.js natively, static export causes issues
   images: {
     unoptimized: true,
   },
