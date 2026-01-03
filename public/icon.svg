@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- German flag colors background -->
+  <rect width="512" height="170.67" fill="#000000"/>
+  <rect y="170.67" width="512" height="170.67" fill="#DD0000"/>
+  <rect y="341.33" width="512" height="170.67" fill="#FFCE00"/>
+  
+  <!-- Book/Document icon overlay -->
+  <g transform="translate(128, 96)">
+    <rect x="0" y="0" width="256" height="320" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="20" y="40" width="216" height="8" rx="4" fill="#000000"/>
+    <rect x="20" y="70" width="180" height="8" rx="4" fill="#000000"/>
+    <rect x="20" y="100" width="200" height="8" rx="4" fill="#000000"/>
+    <rect x="20" y="130" width="160" height="8" rx="4" fill="#000000"/>
+    <circle cx="220" cy="160" r="20" fill="#DD0000"/>
+    <text x="128" y="220" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">?</text>
+  </g>
+</svg>
+

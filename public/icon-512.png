@@ -1,0 +1,8 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- German flag colors -->
+  <rect width="512" height="170.66666666666666" fill="#000000"/>
+  <rect y="170.66666666666666" width="512" height="170.66666666666666" fill="#DD0000"/>
+  <rect y="341.3333333333333" width="512" height="170.66666666666666" fill="#FFCE00"/>
+  <!-- Question mark overlay -->
+  <text x="256" y="298.6666666666667" font-family="Arial, sans-serif" font-size="170.66666666666666" font-weight="bold" text-anchor="middle" fill="#FFFFFF" opacity="0.8">?</text>
+</svg>
